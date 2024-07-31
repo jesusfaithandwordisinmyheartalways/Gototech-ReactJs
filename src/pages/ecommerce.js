@@ -315,47 +315,47 @@ export const Ecommerce = () => {
                        <div className="slideshow-container" >
                         <div className="mySlides fade">
                     <div className="numbertext">1 / {totalSlides}</div>
-                    <img src={AppleMacBook} alt="Apple Macbook" style={{ width: "390px" }} />
+                    <img className="apple-image-slideshow" src={AppleMacBook} alt="Apple Macbook"  />
                     <div className="text">Apple Macbook</div>
                 </div>
                 <div className="mySlides fade">
                     <div className="numbertext">2 / {totalSlides}</div>
-                    <img src={AppleWatch} alt="Apple Watch" style={{width: "390px"  }} />
+                    <img src={AppleWatch} alt="Apple Watch"  />
                     <div className="text">Apple Watch</div>
                 </div>
                 <div className="mySlides fade">
                     <div className="numbertext">3 / {totalSlides}</div>
-                    <img src={AppleIPhone} alt="Apple IPhone" style={{ width: "390px"  }} />
+                    <img src={AppleIPhone} alt="Apple IPhone"  />
                     <div className="text">Apple IPhone</div>
                 </div>
                 <div className="mySlides fade">
                     <div className="numbertext">4 / {totalSlides}</div>
-                    <img src={MicrosoftBandWatch} alt="Microsoft Band Watch" style={{  width: "390px"  }} />
+                    <img src={MicrosoftBandWatch} alt="Microsoft Band Watch"  />
                     <div className="text">Microsoft Band Watch</div>
                 </div>
                 <div className="mySlides fade">
                     <div className="numbertext">5 / {totalSlides}</div>
-                    <img src={MicrosoftLaptop} alt="Microsoft Laptop" style={{  width: "390px"  }} />
+                    <img src={MicrosoftLaptop} alt="Microsoft Laptop"  />
                     <div className="text">Microsoft Laptop</div>
                 </div>
                 <div className="mySlides fade">
                     <div className="numbertext">6 / {totalSlides}</div>
-                    <img src={MicrosoftSurfacePro} alt="Microsoft Surface Pro" style={{  width: "390px" }} />
+                    <img src={MicrosoftSurfacePro} alt="Microsoft Surface Pro"  />
                     <div className="text">Microsoft Surface Pro</div>
                 </div>
                 <div className="mySlides fade">
                     <div className="numbertext">7 / {totalSlides}</div>
-                    <img src={SamsungTablet} alt="Samsung Tablet" style={{ width: "390px"  }} />
+                    <img src={SamsungTablet} alt="Samsung Tablet"  />
                     <div className="text">Samsung Tablet</div>
                 </div>
                 <div className="mySlides fade">
                     <div className="numbertext">8 / {totalSlides}</div>
-                    <img src={SamsungGalaxyS24ultra} alt="Samsung Galaxy S24 Ultra" style={{  width: "390px" }} />
+                    <img src={SamsungGalaxyS24ultra} alt="Samsung Galaxy S24 Ultra"  />
                     <div className="text">Samsung Galaxy S24 Ultra</div>
                 </div>
                 <div className="mySlides fade">
                     <div className="numbertext">9 / {totalSlides}</div>
-                    <img src={SamsungLaptop} alt="Samsung Laptop" style={{ width: "390px"  }} />
+                    <img src={SamsungLaptop} alt="Samsung Laptop" />
                     <div className="text">Samsung Laptop</div>
                 </div>
                 <a className="prev" onClick={() => plusSlides(-1)}>❮</a>

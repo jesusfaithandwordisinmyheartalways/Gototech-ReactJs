@@ -286,7 +286,7 @@ body {
     height: 160px;
     overflow: hidden;
     font-family: 'Lato', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 40px;
     color: var(--whiteColor);
 }
@@ -438,8 +438,10 @@ body {
 }
 
 
+
 .slideshow-container img {
     object-fit: cover;
+  
 }
 
 .mySlides {
@@ -447,6 +449,12 @@ body {
     width: 100%;
     text-align: center;
 }
+
+.mySlides img {
+    width:390px
+}
+
+
 
 .prev, .next {
     cursor: pointer;
@@ -484,6 +492,8 @@ body {
 .active, .dot:hover {
     background-color: #717171;
 }
+
+
 
 .fade {
     animation-name: fade;
@@ -1242,8 +1252,13 @@ body {
 
 
 
-/*--------------------------MOBILE SCREEN--------------------------------*/
-  @media screen and (min-width: 320px) and (max-width: 480px) {
+
+
+
+
+
+/*--------------------------MOBILE SCREEN----------------------------------------------------------------------*/
+  @media screen and (min-width: 320px) and (max-width: 420px) {
 
     .Nav-Container {
         width: 100%;
@@ -1296,7 +1311,7 @@ body {
     .header-content {
         position: relative;
         top:-445px;
-        left: 245px;;
+        left: 150px;;
         width: 210px;
         text-align: center;
         font-size: 1rem;
@@ -1339,7 +1354,145 @@ body {
     text-align: center;
     padding:3em;
     z-index: 101;
+    }
+
+
+
+
+
+
+
+    .apple-text-content {
+        text-align: center;
+        font-size: 0.9rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color:whitesmoke;
+        letter-spacing: 1px;
+    }
+    
+
+
+    .content {
+    position: relative;
+    top:60px;
+    left: 140px;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    line-height: 40px;
+    color: var(--whiteColor);
+    }
+
+    .content__container {
+    font-weight: 600;
+    overflow: hidden;
+    height: 40px;
+    padding: 0 40px;
+    position: relative; /* Added to allow absolutely positioned pseudo-elements */
 }
+
+
+
+.content__container__text {
+    display: inline;
+    float: left;
+    margin: 0;
+}
+
+    .content__container__list {
+    margin-top: 0;
+    padding-left: 110px;
+    text-align: left;
+    list-style: none;
+    animation-name: change;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+    .content__container__list__item {
+    line-height: 60px;
+    margin: 0;
+    }
+
+    .content__container__list img {
+    width: 40px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+    }
+
+
+
+
+
+.slideshow-container {
+    position: relative;
+    margin: auto;
+    max-width: 80%;
+}
+
+
+
+.slideshow-container img {
+    object-fit: cover;
+  
+}
+
+.mySlides {
+    display: none;
+    width: 100%;
+    text-align: center;
+}
+
+.mySlides img {
+    width:260px
+}
+
+
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+}
+
+    .prev {
+    left: 0;
+    }
+
+    .next {
+    right: 0;
+    }
+
+    .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    }
+
+    .active, .dot:hover {
+    background-color: #717171;
+    }
+
+
+
+
+
+
 
 
 
@@ -1352,8 +1505,9 @@ body {
     font-family: "Newsreader", serif;
     font-optical-sizing: auto;
     font-size: 1.3rem;
-   
-}
+   }
+
+
 
 
     .Microsoft-Wrapper img {
