@@ -1,0 +1,55 @@
+ 
+
+ {
+    "header": "Go To Tech",
+    "headerText": "We have the latest local technology must have’s that you’ll need to make your life easier. From the newest Apple computers, Microsoft products  & Samsung electronics.",
+    "headerContent": "Discover The Go-To Electronics ",
+    "appleLaptop": "MacBook",
+    "mackProcessor": "Apple M1 or M2 chip (varies by model), or Intel processors in older models.",
+    "macRam": "Typically 8GB to 64GB, depending on the model and configuration",
+    "macStorage": "SSD options ranging from 256GB to 4TB",
+    "macGraphics": "Integrated graphics on M1/M2 chips; discrete GPUs in higher-end models.",
+    "macBattery": " Generally 8-20 hours depending on model and usage.",
+    "applePhoneName": "IPhone",
+    "applePhoneSystem": "iOS",
+    "applePhoneConnect": "5G, Wi-Fi 6, Bluetooth 5.0",
+    "applePhoneSecurity": "Face ID, Touch ID (on older models), encrypted data",
+    "applePhoneFeatures": "High-quality camera system, LiDAR sensor (on some models), MagSaf.",
+    "appleWatchName": "Apple Watch",
+    "appleWatchBuild": "Aluminum, stainless steel, titanium, or ceramic.",
+    "appleWatchDisplay": "Retina display with customizable watch faces",
+    "appleForm": "Small and lightweight, with interchangeable bands and multiple case sizes",
+    "appleButtonControls": "Digital Crown, side button, touch screen interface.",
+    "microsoftName": "Microsoft Band",
+    "microsoftProcessor" : " ARM Cortex M4 MCU.",
+    "microsoftRam": "Not publicly specified, optimized for fitness tracking.",
+    "microsoftStorage": "Limited storage, primarily for apps and fitness data.",
+    "microsoftBattery" : "Approximately 48 hours with normal use.",
+    "microsoftLaptopName" : "Surface Laptops",
+    "microsoftLaptopOperatingSystem": "Windows 10/11.",
+    "microsoftLaptopConnectivity": "USB-A, USB-C, Surface Connect, headphone jack, Wi-Fi 6, Bluetooth 5.0.",
+    "microsoftLaptopSecurity": "Windows Hello face recognition, TPM chip",
+    "microsoftLaptopFeatures": "Touchscreen, high-resolution display, Alcantara or metal keyboard options, long battery life, Dolby Audio.",
+    "microsoftfBandBuild": "Elastomer band with metal clasp.",
+    "microsoftfBandDisplay": "Thin-film transistor (TFT) full-color touch display.",
+    "microsoftfBandForm": "Wristband style, ergonomic design.",
+    "microsoftfBandButtons": "Touch screen interface, physical buttons for power and navigation.",
+    "samsungProcessor": "Intel Core i5/i7/i9, AMD Ryzen (varies by model).",
+    "samsungRam": "Typically 8GB to 32GB.",
+    "samsungStorage": "SSD options ranging from 256GB to 1TB or more.",
+    "samsungBattery": "Generally 10-20 hours depending on the model and usage.",
+    "samsungGalaxyProcessor": "Qualcomm Snapdragon 8 Gen 3 or Exynos 2400 (depending on region).",
+    "samsungGalaxyRAM": "Typically 8GB to 12GB",
+    "samsungGalaxyStorage": " Options ranging from 256GB to 1TB.",
+    "samsungGalaxyBatteryLife": "Typically 24-48 hours of mixed usage, with fast charging support.",
+    "samsungTabletProcessor": "Qualcomm Snapdragon 8 Gen 2 or higher, or Exynos processors",
+    "samsungTabletRam": "Typically 4GB to 16GB.",
+    "samsungTabletStorage": "Options ranging from 64GB to 1TB.",
+    "samsungTabletBatteryLife": " Generally 10-15 hours of mixed usage"
+    
+
+    
+
+    
+
+ }
